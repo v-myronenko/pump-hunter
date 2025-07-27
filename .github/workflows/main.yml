@@ -2,7 +2,7 @@ name: Run Crypto Pump/Dump Detector
 
 on:
   schedule:
-    - cron: '*/5 * * * *'  # Кожні 5 хвилин
+    - cron: '*/500 * * * *'  # Кожні 5 хвилин
   workflow_dispatch:
 
 jobs:
